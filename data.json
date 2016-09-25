@@ -1,0 +1,10 @@
+[
+{"name":"region1","size":3938,"imports":["region2","region3","region4"]},
+{"name":"region2","size":3938,"imports":["region3","region4","region5"]},
+{"name":"region3","size":3938,"imports":["region4","region5","region6"]},
+{"name":"region4","size":3938,"imports":["region5","region6","region7"]},
+{"name":"region5","size":3938,"imports":["region6","region7","region8"]},
+{"name":"region6","size":3938,"imports":["region7","region8","region1"]},
+{"name":"region7","size":3938,"imports":["region8","region1","region2"]},
+{"name":"region8","size":3938,"imports":["region1","region2","region3"]}
+]
